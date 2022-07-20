@@ -44,5 +44,8 @@ jobs:
         run: |
           echo $GITHUB_WORKSPACE
           ls repos
-          ls /home/runner/work/
+          cd repos/head-bsrushti
+          npm install
+          npm test
+          
           
