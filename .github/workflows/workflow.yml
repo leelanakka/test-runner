@@ -40,3 +40,8 @@ jobs:
         with:
           repository: STEP-tw/head-bsrushti
           path: '$GITHUB_WORKSPACE/repos'
+      - name: check all directories
+        run: |
+          ls $GITHUB_WORKSPACE/repos
+          ls /home/runner/work/
+          
