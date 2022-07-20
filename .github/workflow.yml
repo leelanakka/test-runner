@@ -1,0 +1,22 @@
+name: run-tets
+#
+#on:
+#  schedule:
+#    # Runs "at minute 55 past every hour" (see https://crontab.guru)
+#    - cron: '*/5 * * * *'
+on:
+  push:
+    branches:
+      - main
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out my other private repo
+        uses: actions/checkout@master
+        with:
+          repository: step-6/head-dheeraj-p
+          token: ${{ secrets.my_pat }}
