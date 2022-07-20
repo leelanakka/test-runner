@@ -42,6 +42,7 @@ jobs:
           path: '$GITHUB_WORKSPACE/repos'
       - name: check all directories
         run: |
-          ls $GITHUB_WORKSPACE/repos
+          echo $GITHUB_WORKSPACE
+          ls repos
           ls /home/runner/work/
           
