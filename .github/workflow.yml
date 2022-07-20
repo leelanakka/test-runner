@@ -1,4 +1,4 @@
-name: run-tets
+name: run-tests
 #
 #on:
 #  schedule:
