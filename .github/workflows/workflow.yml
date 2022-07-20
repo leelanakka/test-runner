@@ -20,18 +20,18 @@ jobs:
         with:
           repository: step-6/head-dheeraj-p
       - name: Check out my other private repo
-          uses: actions/checkout@master
-          with:
-            repository: step-6/head-luckyganesh
+        uses: actions/checkout@master
+        with:
+          repository: step-6/head-luckyganesh
       - name: Check out my other private repo
-          uses: actions/checkout@master
-          with:
-            repository: step-6/head-leelanakka
+        uses: actions/checkout@master
+        with:
+          repository: step-6/head-leelanakka
       - name: Check out my other private repo
-          uses: actions/checkout@master
-          with:
-            repository: step-6/head-sapanakale
+        uses: actions/checkout@master
+        with:
+          repository: step-6/head-sapanakale
       - name: Check out my other private repo
-          uses: actions/checkout@master
-          with:
-            repository: step-6/head-bsrushti
+        uses: actions/checkout@master
+        with:
+          repository: step-6/head-bsrushti
