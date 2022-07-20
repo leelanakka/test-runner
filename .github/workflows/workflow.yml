@@ -44,7 +44,7 @@ jobs:
         run: |
           echo $GITHUB_WORKSPACE
           ls repos
-          cd repos/head-bsrushti
+          cd repos/head-luckyganesh
           npm install
           npm test
           
