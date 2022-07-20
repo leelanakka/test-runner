@@ -19,22 +19,22 @@ jobs:
         uses: actions/checkout@master
         with:
           repository: STEP-tw/head-dheeraj-p
-          path: '$GITHUB_WORKSPACE/repos'
+          path: 'repos'
       - name: Check out my other private repo
         uses: actions/checkout@master
         with:
           repository: STEP-tw/head-luckyganesh
-          path: '$GITHUB_WORKSPACE/repos'
+          path: 'repos'
       - name: Check out my other private repo
         uses: actions/checkout@master
         with:
           repository: STEP-tw/head-leelanakka
-          path: '$GITHUB_WORKSPACE/repos'
+          path: 'repos'
       - name: Check out my other private repo
         uses: actions/checkout@master
         with:
           repository: STEP-tw/head-sapanakale
-          path: '$GITHUB_WORKSPACE/repos'
+          path: 'repos'
       - name: Check out my other private repo
         uses: actions/checkout@master
         with:
